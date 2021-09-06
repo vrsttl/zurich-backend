@@ -1,7 +1,7 @@
 {
   "name": "zurich-backend",
   "version": "1.0.0",
-  "description": "simple backend to serve json",
+  "description": "simple backend to serve data for the app",
   "main": "server.js",
   "repository": "https://github.com/vrsttl/zurich-backend",
   "author": "Attila <vrsttl@gmail.com>",
@@ -9,7 +9,6 @@
   "private": true,
   "dependencies": {
     "dotenv": "^10.0.0",
-    "express": "^4.17.1",
-    "nodemon": "^2.0.12"
+    "express": "^4.17.1"
   }
 }
