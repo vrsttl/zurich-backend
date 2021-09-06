@@ -1,0 +1,15 @@
+{
+  "name": "zurich-backend",
+  "version": "1.0.0",
+  "description": "simple backend to serve json",
+  "main": "server.js",
+  "repository": "https://github.com/vrsttl/zurich-backend",
+  "author": "Attila <vrsttl@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.12"
+  }
+}
