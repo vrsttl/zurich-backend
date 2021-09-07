@@ -31,6 +31,7 @@ app.get("/getFlow", (req, res) => {
 app.post("/putData", async (req, res) => {
   try {
     const response = await axios.put(PUT_API, req.body);
+    console.log("response", [response.status, response.statusText]);
   } catch (e) {
     console.log(e);
   }
