@@ -32,6 +32,7 @@ app.post("/putData", async (req, res) => {
   try {
     const response = await axios.put(PUT_API, req.body);
     console.log("response", [response.status, response.statusText]);
+    res.sendStatus(response.status);
   } catch (e) {
     console.log(e);
   }
